@@ -1,0 +1,8 @@
+erDiagram
+    FACT_TABLE ||--o{ DIM_DATE : date_key
+    FACT_TABLE ||--o{ DIM_ENTITY : entity_key
+    FACT_TABLE ||--o{ DIM_CATEGORY : category_key
+    FACT_TABLE { string business_key PK }
+    DIM_DATE { int date_key PK }
+    DIM_ENTITY { string entity_key PK }
+    DIM_CATEGORY { string category_key PK }

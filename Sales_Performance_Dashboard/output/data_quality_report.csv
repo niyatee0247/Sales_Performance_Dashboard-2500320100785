@@ -1,0 +1,5 @@
+check,value
+raw_rows,1201
+clean_rows,1198
+removed_rows,3
+duplicate_key_count,3
